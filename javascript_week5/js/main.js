@@ -9,3 +9,13 @@ function arrays() {
     pens = ["red", "orange", "green", "blue"];
     console.log(pens);
 }
+
+function book() {
+    var books;
+    books = ["fiction", "non-fiction", "technology", "stories"];
+    markers = books;
+    for (var a = 0; a < markers.length; a++) {
+        alert(markers[a]);
+    }
+    alert("Length of array is: " + a);
+}
